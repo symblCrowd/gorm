@@ -11,8 +11,8 @@ import (
 	"time"
 
 	// Importing mssql driver package only in dialect file, otherwide not needed
-	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/jinzhu/gorm"
+	//_ "github.com/denisenkom/go-mssqldb"
+	"github.com/symblCrowd/gorm"
 )
 
 func setIdentityInsert(scope *gorm.Scope) {
